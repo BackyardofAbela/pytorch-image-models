@@ -70,7 +70,7 @@ default_cfgs = {
     ),
 }
 
-
+# 注意力机制
 class Attention(nn.Module):
     def __init__(
             self, dim, num_heads=8, qkv_bias=False, attn_drop=0.,
